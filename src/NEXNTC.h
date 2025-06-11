@@ -10,7 +10,7 @@ class NTCThermistor {
                   float nominalResistance,
                   float nominalTempC,
                   float betaCoefficient,
-                  int numSamples = 10);
+                  int numSamples);
 
     float readTemperatureC();
 
