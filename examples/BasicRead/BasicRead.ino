@@ -1,6 +1,6 @@
 /*
 simple to use 
-thermistor(analogPin, seriesResistor, nominalResistance, nominalTempC, betaCoefficient,numSamples);
+thermistor(analogPin, seriesResistor, nominalResistance, nominalTempC, betaCoefficient, numSamples);
 */
 
 
@@ -16,7 +16,7 @@ void setup() {
 }
 
 void loop() {
-  tempC = thermistor.readTemperatureC();
+  float tempC = thermistor.readTemperatureC();
   Serial.print("Temp: ");
   Serial.print(tempC);
   Serial.println(" °C");
