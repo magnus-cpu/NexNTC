@@ -1,0 +1,2 @@
+NTCThermistor	KEYWORD1
+readTemperatureC	KEYWORD2
